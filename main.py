@@ -5,6 +5,13 @@ import json
 import random
 from colorama import Fore, Style  # Import untuk warna teks
 
+# Print header with colors
+print(Fore.GREEN + "+-----------------------------------------+")
+print(Fore.GREEN + "             Units-Bot Send Token")
+print(Fore.GREEN + "          Modif from HappyCuanAirdrop")
+print(Fore.GREEN + "                    arapzz")
+print(Fore.GREEN + "+-----------------------------------------+")
+
 # Load environment variables from .env file
 load_dotenv()
 
